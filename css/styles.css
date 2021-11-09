@@ -1,0 +1,108 @@
+body {
+  font-family: 'Merriweather', serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/*HEADER*/
+.flex {
+  display: flex;
+  justify-content: center;
+  background-image: url(../assets/fondo1.jpg);
+  background-size: cover;
+}
+
+img {
+  width: 130px;
+  height: 180px;
+  border-radius: 20%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+h1 {
+  background-color: rgb(178, 130, 223);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  letter-spacing: 4px;
+  word-spacing: 5px;
+}
+
+header {
+  margin-bottom: 120px;
+}
+
+/*MAIN*/
+
+h2 {
+  background-color: rgb(201, 168, 231);
+  color: rgb(0, 0, 0);
+  text-align: left;
+  letter-spacing: 5px;
+  word-spacing: 6px;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+/*SECCIÓN DATOS PERSONALES*/
+
+.items-personales {
+  font-style: italic;
+  font-weight: bold;
+}
+
+/*SECCIÓN FORMACIÓN ACADÉMICA*/
+.items-años {
+  font-weight: bold;
+}
+
+.items-academia {
+  margin-left: 10%;
+}
+
+/*SECCIÓN HABILIDADES*/
+
+.habilidades {
+  margin-bottom: 10%;
+}
+
+.iconos {
+  padding-right: 10px;
+}
+
+/*FOOTER*/
+
+footer {
+  background-color: rgb(221, 185, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
+
+footer p {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  padding-right: 2%;
+}
+
+.pie-pagina {
+  padding: 5%, 10%, 5%, 10%;
+  word-spacing: 20px;
+}
+
+
+/*PÁGINA SOBRE MI*/
+#sobre-mi{
+  margin-bottom: 8%;
+}
+
+.icono-nav{
+  color: rgb(136, 7, 136);
+}
